@@ -25,6 +25,8 @@ function agregarAmigos(){
 
         for( let i = 0; <amigos.length; i++){
             const li = document.createElement("li");
+            li.textContent = amigos[i];
+            listaAmigos.appemdChild(li);
             
         }
     }
